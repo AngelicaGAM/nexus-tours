@@ -1,0 +1,69 @@
+.bg-parallax{
+    height: 500px;
+    background-position: 50% 0;
+    background-attachment: fixed;
+}
+.bg-content{
+    display: flex;
+    justify-content: center;
+}
+.content-text{
+    text-align: center;
+    justify-content: center; 
+}
+.col-text{
+    margin: 40px 0 40px;
+}
+.text-promotion{
+    font-size: 40px;
+    font-family: 'Roboto', arial, helvetica;
+    color: #fff;
+    margin-bottom: 20px !important;
+}
+.sub-text-promotion{
+    color: #fff;
+    font-size: 50px;
+    line-height: 1em;
+    font-weight: 300;
+}
+.div-star{
+    padding: 0%;
+}
+.star {
+    margin: 0 6px 0 6px !important;
+}
+.bg-image{
+    height: 100%;
+    background-image: url("https://nexustours.azurewebsites.net/img/background/beach.jpg");
+    background-attachment: scroll;
+    background-position: center center;
+    background-blend-mode: multiply;
+    background-color: #666666;
+
+}
+
+.details-promotion{
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 1.6em;
+    font-weight: 400;
+}
+.text-white{
+    color: #fff;  
+}
+.btn-promotion{
+    border-radius: 4px;
+    cursor: pointer;
+    background: none;
+    border-color: #fff;
+    color: #fff;
+    padding: 10px;
+}
+.btn-promotion:hover {
+    border-color: #fff;
+    background: #fff;
+    color: #737373;
+    border-radius: 8px;
+}

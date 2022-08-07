@@ -1,0 +1,119 @@
+* {box-sizing: border-box;}
+
+.title-feed{
+    margin-top: 0;
+    font-weight: 300;
+    color: #565656;
+    line-height: 1.3em;
+    font-size: 50px;
+}
+.title-card-feed{
+    text-align: center;
+    padding: 2.5rem 0 2rem 0;
+}
+.img-destination{
+    border-radius: 8px;
+}
+.tittle-destination {
+    font-size: 23.66px;
+    font-weight: 300;
+    color: #565656;
+}
+.sbtittle-destination{
+    margin-bottom: 0;
+    margin-top: 6px;
+    font-size: 13px;
+    color: #818181;
+    line-height: 1.4em;
+}
+.text-destination{
+    display: flex;
+    flex-direction: column;
+}
+.title-card{
+    color: #565656;
+    font-size: 18px;
+    font-weight: 400;
+}
+.small {
+    color: #818181 !important;
+    font-size: 12px;
+    line-height: 1.4000000000000001em;
+}
+.price-card{
+    line-height: 1em;
+    font-size: 18px;
+    color: #f37021 ;
+}
+
+  .hover-img:hover >img {
+   
+    z-index: 1;
+    display: block;
+    position: relative;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.3);
+    transition: 4s;
+  }
+
+  /* .hover-img  { 
+    
+    background: rgba(237,131,35,0.75) !important;
+    color: #fff !important;
+  } */
+ .hover-btn  { 
+        
+    background: rgba(237,131,35,0.75) !important;
+    color: #fff !important;
+    padding: 5px;
+    width: auto;
+    background: transparent;
+    color: transparent;
+    z-index: 5;
+    position: absolute;
+}
+.card-body{
+    padding-top: 0px;
+    padding-left: 0px;
+}
+
+.card {
+    border-radius: 0;
+    border: none;
+}
+
+.hoverimg{
+    z-index: 1;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s;
+    background-repeat: no-repeat;
+}
+img.card-img-top{
+    vertical-align: middle;
+    border-style: none;
+}
+
+.card-img-overlay  {
+    /* display: block; */
+    display: table;
+    width: auto;
+    top: 30%;
+    left: 30%;
+    /* transform: translate3d(-50%, 50%, 0);
+    z-index: 2; */
+    position: absolute;
+    bottom: 0;
+    padding: 0 7px;
+    line-height: 32px;
+}
+
+@media (min-width: 767px){ 
+.img-destination{
+    height: auto;
+}
+
+}

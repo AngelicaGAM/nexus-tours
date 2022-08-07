@@ -1,0 +1,41 @@
+.WrapperFooter{
+    background: #262626;
+}
+.footer-Container{
+    padding: 5% 0 6% 0;
+}
+
+.text-footer{
+    margin-top: 30px;
+    color: #e6e6e6;
+    font-size: 14px;
+    line-height: 1.4em;
+}
+.text-Ofertas{
+    padding: 0;
+    margin: 7px;
+    color: #fff;
+    font-size: 13px;
+}
+.title-text-Ofertas{
+    color: #fff;
+    font-size: 24px;
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+.text-orange{
+    color: #f37021 !important;
+    font-size: 23.66px;
+    font-weight: 300;
+}
+.border-href:hover {
+    color: white;
+    text-decoration: underline;
+}
+@media (min-width: 767px){ 
+
+    .footer-Container{
+        margin: 3rem 2rem 0 2rem ;
+    }
+}
